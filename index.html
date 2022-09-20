@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Quiz</title>
 </head>
 <body>
@@ -13,7 +14,15 @@
         <button id="start">Start Quiz</button>
     </header>
     <main>
-        <div id="quiz"></div>
+        <div id="quiz" class="hide">
+            <h2 class="quiz-question"> This is where the questions go</h2>
+            <div class="btn-grid">
+                <button id="answer1">op1</button>
+                <button id="answer2">op2</button>
+                <button id="answer3">op3</button>
+                <button id="answer4">op4</button>
+            </div>
+        </div>
         <!-- <button id="submit">Get Results</button>
         <div id="results"></div> -->
     </main>
