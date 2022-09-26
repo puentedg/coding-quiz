@@ -10,22 +10,37 @@
 <body>
     <header class="start-container">
         <h1>Coding Quiz</h1>
-        <p>click start to begin</p>
-        <button id="start">Start Quiz</button>
+        <button id="start">START</button>
     </header>
     <main>
+        <h2><span id="timer">60</span></h2>
         <div id="quiz" class="hide">
             <h2 class="quiz-question"> This is where the questions go</h2>
             <div class="btn-grid">
-                <button id="answer1">op1</button>
-                <button id="answer2">op2</button>
-                <button id="answer3">op3</button>
-                <button id="answer4">op4</button>
+                <button id="answer1">a</button>
+                <button id="answer2">b</button>
+                <button id="answer3">c</button>
+                <button id="answer4">d</button>
             </div>
         </div>
-        <!-- <button id="submit">Get Results</button>
-        <div id="results"></div> -->
+        <div class="result hide">
+            <h2>You Scored</h2>
+            <p id="user-score"></p>
+        </div>
+        <div class="initials hide">
+            <input type="text" id="user-initials" placeholder="Initials">
+            <button id="submit">Submit</button> 
+        </div>
+        <section id="highscoreSection" class="column hide">
+            <h2>High scores:</h2>
+             <ol id="high-scoreList" class="hide"></ol>
+             <button id="home-btn">HOME</button>
+            
+        </section>
     </main>
+    <footer>
+        <h3>Made with love ❤️ by Gabriella</h3>
+    </footer>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
