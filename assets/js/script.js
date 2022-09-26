@@ -168,15 +168,3 @@ submitBtn.addEventListener("click", ()=>{
     }
     displayScore()
 })
-
-// Home button return to the home page
-homeButtonEl.addEventListener("click", function (e) { 
-    e.preventDefault(); 
-    quizContainer.style.display="none"
-    startContainer.style.display="inline-block"
-    highscoreSectionEl.style.display="none"
-    initialEl.style.display="none"
-    endQuiz()
-    startTimer()
-
-  });
