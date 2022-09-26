@@ -120,7 +120,16 @@ input {
     display: flex;
     color:rgb(85, 85, 85)
 }
+.rules{
+    color:#0a963b;
+    font-size: 30px;
+    line-height: 40px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
 
+}
 .hide {
     display: none;
 }

@@ -50,6 +50,7 @@ const btn4 = document.querySelector("#answer4");
 const btnGrid = document.querySelector('.btn-grid');
 const timerEl = document.getElementById("timer");
 const highscoreSectionEl = document.getElementById("highscoreSection");
+const rulesContainer = document.querySelector(".rules");
 const homeButtonEl = document.getElementById("home-btn");
 let index =0;
 let timer;
@@ -78,6 +79,7 @@ function startTimer() {
 // Write quiz questions
 function generateQuestions () {
 quizContainer.classList.replace("hide","show");
+rulesContainer.classList.replace("show","hide")
 
 if (index===questions.length) {
     endQuiz();
