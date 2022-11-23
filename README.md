@@ -1,4 +1,3 @@
-# module-4-challenge
 # Coding Quiz
 
 ## Description
@@ -19,5 +18,5 @@ Once the quiz has begun, you will have 60 seconds to answer all of the questions
 
 ## Credits
 
-GABRIELLA - https://github.com/puentedg/module-4-challenge
+GABRIELLA - https://github.com/puentedg/coding-quiz
 
